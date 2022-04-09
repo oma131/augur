@@ -9,7 +9,7 @@ PostgreSQL Installation
 
 .. code-block:: bash 
 
-	sudo apt update
+   	sudo apt update
 	sudo apt upgrade
 	sudo apt install software-properties-common
 	sudo apt install python3-dev
@@ -63,7 +63,7 @@ Python Virtual Environment Configuration
 
 .. code-block:: bash
 
-	# make sure you are logged in as your own user (i.e. "sean")
+	# Go to https://github.com/chaoss/augur.git and fork the repository
 	git clone https://github.com/chaoss/augur.git
 	cd augur/
 	sudo apt install make
